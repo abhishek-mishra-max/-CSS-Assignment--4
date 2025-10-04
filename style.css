@@ -1,0 +1,154 @@
+.hc{
+    background-image: linear-gradient(to right,red,green,yellow);
+    text-decoration: underline;
+    font-weight: 700;
+    text-align: center;
+}
+.head2{
+    border: 2px solid red;
+    border-radius: 15px;
+    width: 800px;
+    margin: 0px auto;
+    margin-top: 15px;
+    text-align: center;
+    background-color: turquoise;
+    font-weight: bold;
+
+}
+ul{
+    display: grid;
+    justify-content: center;
+    text-align: left;
+}
+.main1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: aquamarine;
+    margin-top: 30px;
+    padding-top: 21px;
+}
+
+.card4{
+    
+    grid-column: 2;
+}
+.p1{
+    border-radius: 15px;
+    border: 2px solid green;
+    background-color: #00FFFF;
+    font-weight: bold;
+    height: 60px;
+    width: 350px;
+    padding: 21px;
+    margin-top: -15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+}
+.main2{
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+    background-image: linear-gradient(to right,red,yellow 60%,red);
+}
+
+.main3{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-image: radial-gradient(blue,aqua,green);
+    margin-top: 20px;
+    height: 200px;
+    align-items: center;
+    
+    
+}
+.box{
+    border-radius: 10px;
+    border: 2px solid red;
+    background-color: yellow;
+    color: brown;
+    text-align: center;
+    text-decoration: underline;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 200px;
+    height: 100px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+}
+.main4{
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 5px;
+    column-gap: 5px;
+    row-gap: 5px;
+    width: 1250px;
+    height: auto;
+}
+.hub1{
+    background-color: red;
+    color: white;
+    grid-column: 1/5;
+    text-align: center;
+}
+.hub2{
+    background-color: lightgreen;
+    height: 70px;
+    width: 360px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: aliceblue;
+}
+.hub3{
+    background-color: lightblue;
+    color: aliceblue;
+    height: 70px;
+    width: 360px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.hub4{
+    background-color: blue;
+    color: white;
+    height: 70px;
+    width: 360px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.hub5{
+    background-color: black;
+    color: white;
+    height: 185px;
+    width: 130px;
+    grid-column-start: 4;
+    grid-row: 2/8;
+}
+.hub6{
+    background-color: orange;
+    height: 100px;
+    color: white;
+    grid-column: 1/4;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    margin-bottom: -38px;
+
+}
+.hub7{
+    background-color: aqua;
+    color: black;
+    grid-column: 1/5;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -40px;
+}
+a{
+    color: white;
+}
